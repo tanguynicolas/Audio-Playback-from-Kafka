@@ -12,5 +12,6 @@ RUN apt-get update -y && \
 
 WORKDIR /code
 COPY . .
-RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+RUN ln -s /usr/local/bin/python3 /usr/bin/python3 && \
+    pip install --no-cache-dir --upgrade -r /code/requirements.txt
 CMD ["python3", "main.py"]
