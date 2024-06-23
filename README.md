@@ -4,6 +4,8 @@ Read audio file (mp3) from specific tag in specific JSON document format, publis
 
 Format is `{ "tags": ["sound_*"] }`. Tagg must start by `sound_`. The rest of the string must match MP3 file name, present in `audio/` directory.
 
+See example [here](#produce-to-trigger).
+
 ## Configuration
 
 Set environment variable.
