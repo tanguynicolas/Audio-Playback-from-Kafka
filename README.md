@@ -10,11 +10,11 @@ See example [here](#produce-to-trigger).
 
 Set environment variable.
 
-| Variable       | Default          |
-| -------------- | ---------------- |
-| KAFKA_HOSTNAME | localhost (str)  |
-| KAFKA_PORT     | 9092 (str)       |
-| KAFKA_TOPIC    | ctfmanager (str) |
+| Variable         | Default            |
+| ---------------- | ------------------ |
+| `KAFKA_HOSTNAME` | localhost (`str`)  |
+| `KAFKA_PORT`     | 9092 (`str`)       |
+| `KAFKA_TOPIC`    | ctfmanager (`str`) |
 
 ## Start
 
