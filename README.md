@@ -18,8 +18,6 @@ Set environment variable.
 
 ## Start
 
-### Without Docker
-
 Install dependancies.
 
 ```shell
@@ -32,14 +30,6 @@ Then start.
 
 ```shell
 python main.py
-```
-
-### With Docker
-
-```shell
-docker run --rm -e "KAFKA_HOSTNAME=${KAFKA_HOSTNAME}" \
-    -e "KAFKA_PORT=${KAFKA_PORT}" \
-    tanguynicolas/audio-playback-from-kafka
 ```
 
 ## Manually produce
